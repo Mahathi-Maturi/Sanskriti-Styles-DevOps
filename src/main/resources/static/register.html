@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Fashion E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <img src="https://github.com/Mahathi-Maturi/CEWLAB/blob/main/sanskriti%20styles.jpg?raw=true" alt="Sanskriti Styles Logo" class="logo" />
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container register-container">
+        <h1>Create Your Account</h1>
+        <form id="register-form" class="register-form">
+            <div class="form-group">
+                <label for="reg-fullname">Full Name:</label>
+                <input type="text" id="reg-fullname" name="fullname" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-confirm-password">Confirm Password:</label>
+                <input type="password" id="reg-confirm-password" name="confirm_password" required>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+            <p class="login-link">Already have an account? <a href="login.html">Login here</a></p>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-columns">
+            <div>
+                <h3>About Us</h3>
+                <p>Fashion E-Commerce offers the latest trends in Indian wear and accessories. Quality and style delivered to your doorstep.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html" style="color: #ccc; text-decoration: none;">Home</a></li>
+                    <li><a href="products.html" style="color: #ccc; text-decoration: none;">Products</a></li>
+                    <li><a href="about.html" style="color: #ccc; text-decoration: none;">About Us</a></li>
+                    <li><a href="cart.html" style="color: #ccc; text-decoration: none;">Cart</a></li>
+                    <li><a href="login.html" style="color: #ccc; text-decoration: none;">Login</a></li>
+                    <li><a href="register.html" style="color: #ccc; text-decoration: none;">Register</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@sanskriticom.com" style="color: #ccc; text-decoration: none;">info@sanskriticom.com</a></p>
+                <p>Phone: +91 73960 16089</p>
+                <p>Address: 123 Fashion Lane, Style City, India</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Sanskriti Styles. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
