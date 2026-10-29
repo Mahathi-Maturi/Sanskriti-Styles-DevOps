@@ -28,9 +28,9 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                bat 'docker build -t sanskriti-styles:v1 .'
-            }
-        }
+        bat '"C:\\Users\\mahat\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t sanskriti-styles:v1 .'
+    }
+}
     }
 
     post {
